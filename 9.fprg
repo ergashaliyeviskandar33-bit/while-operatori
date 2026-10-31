@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="8"/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-10-29 06:55:35 "/>
+        <attribute name="created" value="dXNlcjtIT01FLVBDOzIwMjYtMTAtMjk7IjA2OjI5OjM2ICI7MjEzOQ=="/>
+        <attribute name="edited" value="dXNlcjtIT01FLVBDOzIwMjYtMTAtMjk7IjA2OjU1OjM1ICI7MjsyMjQ2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="narx, b, c" type="Integer" array="False" size=""/>
+            <input variable="narx"/>
+            <assign variable="b" expression="1"/>
+            <while expression="b&lt;=10">
+                <assign variable="c" expression="narx*b"/>
+                <output expression="b &amp;&quot; Kilogram konfet narxi &quot; &amp;c" newline="True"/>
+                <assign variable="b" expression="b+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
